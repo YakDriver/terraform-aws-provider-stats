@@ -6,7 +6,7 @@ install:
   - git config --global user.name "YakDriver"
   - git clone https://github.com/terraform-providers/terraform-provider-aws.git
   - export TF_AWS_PATH=./terraform-provider-aws/aws
-  - ls -1 "${TF_AWS_PATH}/resource_aws_a*.go"
+  - ls -1 ${TF_AWS_PATH}/*.go
 script:
   - ./get_stats.sh
   - git checkout main
