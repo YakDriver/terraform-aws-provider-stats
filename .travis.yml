@@ -1,0 +1,16 @@
+language: sh
+
+stage: test
+install:
+  - git config --global user.email "${GH_EMAIL}"
+  - git config --global user.name "YakDriver"
+  - git clone https://github.com/terraform-providers/terraform-provider-aws.git
+  - export TF_AWS_PATH=./terraform-provider-aws/aws
+script:
+  - ./get_stats.sh
+  - git checkout main
+  - git add ./results/*
+  - git add README.md
+  - git commit -m "Update analysis with build $TRAVIS_BUILD_NUMBER"
+  - git remote add commit-origin https://${GH_TOKEN}@github.com/YakDriver/terraform-aws-conventions.git > /dev/null 2>&1
+  - git push --quiet --set-upstream commit-origin main 
