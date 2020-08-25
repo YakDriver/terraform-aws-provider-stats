@@ -1,6 +1,7 @@
-language: sh
+language: shell
+os: linux
+dist: xenial
 
-stage: test
 install:
   - git config --global user.email "${GH_EMAIL}"
   - git config --global user.name "YakDriver"
