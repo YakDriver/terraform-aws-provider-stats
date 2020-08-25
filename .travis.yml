@@ -10,7 +10,6 @@ install:
 script:
   - ./get_stats.sh
   - git checkout main
-  - git add ./results/*
   - git add README.md
   - git commit -m "Update analysis with build $TRAVIS_BUILD_NUMBER"
   - git remote add commit-origin https://${GH_TOKEN}@github.com/YakDriver/terraform-aws-provider-stats.git > /dev/null 2>&1
