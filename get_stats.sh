@@ -20,17 +20,17 @@ readmeFile="README.md"
 cat README_header.md > ${readmeFile}
 
 for i in "${!descriptions[@]}"; do
-  all_count=$(ls -1 "${TF_AWS_PATH}/${all_files[$i]}" | wc -l)
-  test_count=$(ls -1 "${TF_AWS_PATH}/${tests[$i]}" | wc -l)
+  all_count=$(ls -1 ${TF_AWS_PATH}/${all_files[$i]} | wc -l)
+  test_count=$(ls -1 ${TF_AWS_PATH}/${tests[$i]} | wc -l)
 
   all_lines=0
-  for f in "${TF_AWS_PATH}/${all_files[$i]}"; do
+  for f in ${TF_AWS_PATH}/${all_files[$i]}; do
     line_count=$(< "${f}" wc -l)
     ((all_lines=all_lines+line_count))
   done
 
   test_lines=0
-  for f in "${TF_AWS_PATH}/${tests[$i]}"; do
+  for f in ${TF_AWS_PATH}/${tests[$i]}; do
     line_count=$(< "${f}" wc -l)
     ((test_lines=test_lines+line_count))
   done
