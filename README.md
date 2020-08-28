@@ -49,3 +49,7 @@ Find out more:
 |  Non-Test Lines  |  23,748  |
 |  Test Lines  |  25,175  |
 
+
+
+
+[AWS EC2 Instance Types/Prices](https://github.com/YakDriver/aws-ec2-instance-types)
