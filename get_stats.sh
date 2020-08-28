@@ -54,3 +54,5 @@ for i in "${!descriptions[@]}"; do
   printf "|  %s  |  %'.f  |\n" "Non-Test Lines" "${non_test_lines}"  >> "${readmeFile}"
   printf "|  %s  |  %'.f  |\n\n" "Test Lines" "${test_lines}"  >> "${readmeFile}"
 done
+
+printf "\n\n\n[%s](%s)\n" "AWS EC2 Instance Types/Prices" "https://github.com/YakDriver/aws-ec2-instance-types"  >> "${readmeFile}"
