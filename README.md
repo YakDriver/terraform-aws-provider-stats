@@ -16,12 +16,12 @@ Find out more:
 
 |  Stat  |  Count  |
 | ------------- | -------------: |
-|  All Files  |  1,860  |
-|  Non-Test Files  |  929  |
-|  Test Files  |  931  |
-|  Lines of Code  |  702,862  |
-|  Non-Test Lines  |  276,179  |
-|  Test Lines  |  426,683  |
+|  All Files  |  1,870  |
+|  Non-Test Files  |  934  |
+|  Test Files  |  936  |
+|  Lines of Code  |  704,911  |
+|  Non-Test Lines  |  277,005  |
+|  Test Lines  |  427,906  |
 
 
 
@@ -29,12 +29,12 @@ Find out more:
 
 |  Stat  |  Count  |
 | ------------- | -------------: |
-|  All Files  |  1,354  |
-|  Non-Test Files  |  674  |
-|  Test Files  |  680  |
-|  Lines of Code  |  614,733  |
-|  Non-Test Lines  |  228,838  |
-|  Test Lines  |  385,895  |
+|  All Files  |  1,360  |
+|  Non-Test Files  |  677  |
+|  Test Files  |  683  |
+|  Lines of Code  |  616,338  |
+|  Non-Test Lines  |  229,419  |
+|  Test Lines  |  386,919  |
 
 
 
@@ -42,12 +42,12 @@ Find out more:
 
 |  Stat  |  Count  |
 | ------------- | -------------: |
-|  All Files  |  448  |
-|  Non-Test Files  |  225  |
-|  Test Files  |  223  |
-|  Lines of Code  |  59,986  |
-|  Non-Test Lines  |  29,650  |
-|  Test Lines  |  30,336  |
+|  All Files  |  452  |
+|  Non-Test Files  |  227  |
+|  Test Files  |  225  |
+|  Lines of Code  |  60,406  |
+|  Non-Test Lines  |  29,890  |
+|  Test Lines  |  30,516  |
 
 
 
