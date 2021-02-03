@@ -19,9 +19,9 @@ Find out more:
 |  All Files  |  1,902  |
 |  Non-Test Files  |  950  |
 |  Test Files  |  952  |
-|  Lines of Code  |  721,876  |
-|  Non-Test Lines  |  282,467  |
-|  Test Lines  |  439,409  |
+|  Lines of Code  |  722,099  |
+|  Non-Test Lines  |  282,526  |
+|  Test Lines  |  439,573  |
 
 
 
@@ -32,9 +32,9 @@ Find out more:
 |  All Files  |  1,384  |
 |  Non-Test Files  |  689  |
 |  Test Files  |  695  |
-|  Lines of Code  |  631,404  |
-|  Non-Test Lines  |  234,152  |
-|  Test Lines  |  397,252  |
+|  Lines of Code  |  631,623  |
+|  Non-Test Lines  |  234,211  |
+|  Test Lines  |  397,412  |
 
 
 
@@ -45,9 +45,9 @@ Find out more:
 |  All Files  |  460  |
 |  Non-Test Files  |  231  |
 |  Test Files  |  229  |
-|  Lines of Code  |  62,238  |
+|  Lines of Code  |  62,242  |
 |  Non-Test Lines  |  30,615  |
-|  Test Lines  |  31,623  |
+|  Test Lines  |  31,627  |
 
 
 
